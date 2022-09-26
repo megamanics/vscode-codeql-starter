@@ -1,0 +1,144 @@
+{
+    "codeQL.canary": true,
+    "codeQL.telemetry.enableTelemetry": true,
+    "codeQL.remoteQueries.controllerRepo": "megamanics/vscode-codeql-starter",
+    "codeQL.remoteQueries.repositoryLists": {
+        "my-list-of-javascript-repos": [
+            "github/codeql-patch",
+            "github/copilot",
+            "github/custom-og-image",
+            "github/monacorp-haikus",
+            "github/onslaught",
+            "github/ops",
+            "github/publish-issues",
+            "github/stash",
+            "github/synth",
+            "github/synth-fim",
+            "github/thehub",
+            "github/vscode-codeql"
+        ],
+        "github-ruby": [
+            "github/brew2deb",
+            "github/codeql-action",
+            "github/dependabot-api",
+            "github/dependency-graph-api",
+            "github/esb-tools",
+            "github/failbotg",
+            "github/octoshift",
+            "github/github"
+        ],
+        "go-examples": [
+            "github/launch",
+            "github/spokesd",
+            "github/token-scanning-service",
+            "github/blackbird-fe",	
+            "github/gitrpcd",
+            "github/hookshot-go",
+            "github/insights-code",	
+            "github/registry"
+        ],
+        "github-go": [
+            "github/aleph",
+            "github/alive",
+            "github/authnd",
+            "github/authzd",
+            "github/moda-metrics",
+            "github/moda-scaffolding",
+            "github/stash",
+            "github/status",
+            "github/token-scanning-service",
+            "github/treelights",
+            "github/turboscan",
+            "github/varnish-iris-sidecar",
+            "github/viewscreen",
+            "github/voltron"
+        ],
+        "oss-ruby": [
+            "Flowminder/FlowKit",
+            "hapifhir/hapi-fhir",
+            "learning-unlimited/ESP-Website",
+            "mruby/mruby",
+            "renovatebot/renovate",
+            "ruby/ruby",
+            "zulip/zulip"
+        ],
+        "oss-java": [
+            "B3Partners/tailormap",
+            "Hack23/cia",
+            "Hongbo-Miao/hongbomiao.com",
+            "MegaMek/mekhq",
+            "nextcloud/news-android",
+            "spockframework/spock",
+            "stefan-niedermann/nextcloud-notes",
+            "strimzi/strimzi-kafka-operator",
+            "webauthn4j/webauthn4j",
+            "zeroc-ice/ice",
+            "zxing/zxing"
+        ],
+        "oss-java-short": [
+            "B3Partners/tailormap",
+            "Hack23/cia",
+            "Hongbo-Miao/hongbomiao.com",
+            "MegaMek/mekhq",
+            "NCI-Agency/anet",
+            "odpi/egeria",
+            "oracle/weblogic-kubernetes-operator",
+            "qiniu/java-sdk",
+            "reactor/reactor-netty",
+            "redis/jedis"
+        ],
+        "oss-javascript-short": [
+            "microsoft/ApplicationInsights-JS",
+            "microsoft/BotFramework-Composer",
+            "microsoft/BotFramework-Emulator",
+            "apache/superset",
+            "apache/thrift",
+            "apache/tomcat",
+            "apache/trafficcontrol",
+            "angular-app/Samples",
+            "angular-ui/ui-grid",
+            "angular-ui/ui-scroll",
+            "angular/angular",
+            "angular/angular-cli",
+            "angular/angular.js",
+            "angular/angularfire",
+            "angular/angularjs.org"
+        ],
+        "oss-javascript": [
+            "38b88d20ad2/semmle-express-test",
+            "73rhodes/Sublime-JSLint",
+            "JamieSlome/node-gitlab-hook",
+            "JonHMChan/descartes",
+            "ashaffer/cached-path-relative",
+            "asm-products/octobox",
+            "assaf/zombie",
+            "zhangkaitao/es",
+            "zheqiang-liu/jfinal-blog",
+            "zhukov/webogram",
+            "ziahamza/webui-aria2",
+            "zotero/zotero",
+            "zulip/zulip",
+            "zwave-js/node-zwave-js"
+        ],
+        "vercel-examples": [
+            "vercel/react-jsx-parser",
+            "vercel/nft",
+            "vercel/now-desktop",
+            "vercel/micro",
+            "vercel/platforms"
+        ]
+    },
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Remote query results",
+            "query": "state:open repo:megamanics/vscode-codeql-starter sort:created-desc 'Query run by megamanics'"
+        }
+    ],
+    "github-actions.workflows.pinned.workflows": [
+        "dynamic/codeql/queries"
+    ],
+}
