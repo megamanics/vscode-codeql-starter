@@ -1,8 +1,9 @@
 {
     "codeQL.canary": true,
     "codeQL.telemetry.enableTelemetry": true,
+    "codeQL.variantAnalysis.controllerRepository": "megamanics/vscode-codeql-starter",
     "codeQL.remoteQueries.controllerRepo": "megamanics/vscode-codeql-starter",
-    "codeQL.remoteQueries.repositoryLists": {
+    "codeQL.variantAnalysis.repositoryLists": {
         "my-list-of-javascript-repos": [
             "github/codeql-patch",
             "github/copilot",
